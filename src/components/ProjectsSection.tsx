@@ -1,15 +1,10 @@
 import React from "react";
 import { projects } from "@/lib/data";
-import {
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
+import { CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Github } from "lucide-react";
 import { GlassCard } from "./ui/glass-card";
 import MotionWrapper from "./MotionWrapper";
+import ProjectCarousel from "./ProjectCarousel";
 import { motion } from "framer-motion";
 
 export default function ProjectsSection() {
@@ -26,6 +21,10 @@ export default function ProjectsSection() {
           {projects.map((project, index) => (
             <MotionWrapper key={project.title} delay={index * 0.2}>
               <GlassCard className="group overflow-hidden dark:border-purple-500/10 h-full flex flex-col">
+                <ProjectCarousel
+                  images={project.images}
+                  projectTitle={project.title}
+                />
                 <CardHeader className="bg-gradient-to-r from-purple-500/5 to-pink-500/5">
                   <CardTitle className="text-center md:text-left group-hover:text-purple-500 transition-colors duration-300">
                     {project.title}

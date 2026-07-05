@@ -135,6 +135,12 @@ export const projects = [
   {
     title: "Adisyo Restaurant App",
     github: "",
+    images: [
+      "/projects/adisyo/1-masalar.png",
+      "/projects/adisyo/2-siparisler.png",
+      "/projects/adisyo/3-menu.png",
+      "/projects/adisyo/4-adisyon.png",
+    ],
     description: [
       "Mobile restaurant management application serving around 7,000 active users.",
       "Built with Flutter based on customer and branch-specific requirements.",
@@ -144,6 +150,7 @@ export const projects = [
   {
     title: "Media Monitoring App",
     github: "",
+    images: [] as string[],
     description: [
       "Media monitoring mobile application with thousands of active users.",
       "Developed at Kodiks with focus on scalability and real-time data.",
@@ -152,6 +159,7 @@ export const projects = [
   {
     title: "E-commerce Mobile App",
     github: "",
+    images: [] as string[],
     description: [
       "Scalable e-commerce mobile application with end-to-end product development.",
       "Integrated Firebase services and modern state management solutions.",
@@ -160,6 +168,7 @@ export const projects = [
   {
     title: "Magazine Reading App",
     github: "",
+    images: [] as string[],
     description: [
       "Digital magazine reading application with smooth UX and content delivery.",
       "Built with Flutter and deployed to app stores.",
@@ -168,6 +177,11 @@ export const projects = [
   {
     title: "B2B Mobile Platform",
     github: "",
+    images: [
+      "/projects/b2b/2-ana-sayfa.png",
+      "/projects/b2b/3-kategoriler.png",
+      "/projects/b2b/1-urun-detay.png",
+    ],
     description: [
       "Business-to-business mobile platform for enterprise workflows.",
       "Clean Architecture and modular codebase for long-term maintainability.",
@@ -176,6 +190,7 @@ export const projects = [
   {
     title: "AI Mobile Application",
     github: "",
+    images: [] as string[],
     description: [
       "AI-powered mobile application integrating intelligent features.",
       "Full lifecycle development from architecture to store release.",

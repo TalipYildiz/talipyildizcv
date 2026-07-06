@@ -87,7 +87,7 @@ export const skills = {
     "Localization",
     "In-App Purchases",
   ],
-  backendDevelopment: [
+  architecture: [
     "Clean Architecture",
     "SOLID Principles",
     "MVVM",
